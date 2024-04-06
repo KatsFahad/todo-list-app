@@ -1,0 +1,74 @@
+body{
+    background-color: #282828;
+    color: #0092cc;
+    margin: 10px;
+}
+
+.change-btns{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2.5rem;
+}
+img{
+    width: 200px;
+    border-radius: 12px;
+}
+h3{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 3rem;
+}
+input{
+    width: 55%;
+    height: 2.5rem;
+    font-size: 2rem;
+    padding: 10px;
+}
+#add-btn{
+    margin-left: 1rem;
+    padding: 10px 15px;
+    background: linear-gradient(to left, #00ffff, #ff02ff);
+    border-radius: 15px;
+    font-weight: bold;
+}
+.cont{
+    display: flex;
+}
+
+.upcoming input{
+    margin-left: 7rem;
+}
+.upcoming h3{
+    margin-top: 10px;
+}
+
+.change-btns button{
+    background: linear-gradient(to left, #00ffff, #ff02ff);
+    border-radius: 15px;
+    padding: 5px;
+    font-weight: bold;
+    
+}
+
+.cont p{
+    font-size: 2rem;
+}
+
+.change-btns p{
+    font-size: 1.5rem;
+}
+h1{
+    text-align: center;
+}
+
+#todo-color{
+    background: linear-gradient(to left, #00ffff, #ff02ff);
+    border-radius: 15px;
+    padding: 5px;
+    font-weight: bold;
+    
+}
+
+#p-tag{
+    font-size: 1.5rem;
+}

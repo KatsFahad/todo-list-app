@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo-lists</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Your todo-list app.</h1>
+    <div class="cont">
+      <div>
+        <img src="images/todo-img.webp" alt="image" />
+        <p>Add, remove and edit your tasks;</p>
+
+        <div class="change-btns">
+          <div>
+            <p>Change background-color</p>
+            <button onclick="changeColor()">CHANGE BG-COLOR</button>
+          </div>
+          <div>
+            <p>Change text color</p>
+            <button onclick="changeTextColor()">CHANGE TXT-COLOR</button>
+          </div>
+          <div></div>
+        </div>
+
+        <input type="text" placeholder="enter task" id="input-text" />
+        <button id="add-btn" onclick="createNewli()">ADD</button>
+      </div>
+      <div class="upcoming">
+        <input
+          type="text"
+          placeholder="what to do on week 3"
+          id="input-text2"
+        />
+        <button id="add-btn" onclick="createNewli2()">ADD</button>
+        <h3>Meet clients and todo hobbies.</h3>
+        <ul id="ul-element2"></ul>
+      </div>
+    </div>
+
+    <div>
+        <p id="p-tag">Change todo-text colors</p>
+        <button id="todo-color" onclick="todoColor()">CHANGE</button>
+    </div>
+
+    <h3>My tasks</h3>
+    <ul id="ul-element"></ul>
+
+    <script src="index.js"></script>
+  </body>
+</html>
